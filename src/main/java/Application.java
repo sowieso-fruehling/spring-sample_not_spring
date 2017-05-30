@@ -7,7 +7,7 @@ public class Application {
 		
 		CustomerService service=new CustomerServiceImpl();
 		
-		//hapy path
+		//happy path
 		System.out.println(service.findAll().get(0).getName());
 
 	}
